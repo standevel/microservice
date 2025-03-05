@@ -28,6 +28,7 @@ This project implements two microservices: **Order Service** and **Notification 
    ```sh
    npm run start:order
    npm run start:notification
+   to start both on dev mode you run npm run dev
    ```
 4. Run tests:
    ```sh
