@@ -6,7 +6,8 @@ This project implements two microservices: **Order Service** and **Notification 
 ## Architecture
 - **Order Service**: Handles order creation and enqueues order messages.
 - **Notification Service**: Consumes order messages and sends user notifications.
-- **Queue Service**: Manages RabbitMQ interactions for both services.
+- **Queue Service**: Manages RabbitMQ interactions for order services.
+- **Message Partten**: A nestjs decorator for listening to events
 
 ## Setup Instructions
 ### Prerequisites
